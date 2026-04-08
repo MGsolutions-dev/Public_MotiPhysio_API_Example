@@ -1,0 +1,17 @@
+# Claude Code local settings
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+bin/
+obj/
+build/
+*.class
+*.o
+*.out
+__pycache__/
+*.pyc
+node_modules/

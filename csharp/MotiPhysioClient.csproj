@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- .NET 6 이상 필요 (HttpClient async, System.Text.Json, record 타입 지원) -->
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>MotiPhysioClient</AssemblyName>
+  </PropertyGroup>
+
+  <!--
+    외부 NuGet 패키지 불필요.
+    HttpClient, System.Text.Json 은 .NET 런타임에 내장되어 있습니다.
+  -->
+
+</Project>

@@ -1,0 +1,12 @@
+{
+  "name": "moti-physio-api-sample",
+  "version": "1.0.0",
+  "description": "Public Moti-Physio API — JavaScript sample client",
+  "main": "motiPhysioClient.js",
+  "scripts": {
+    "start": "node motiPhysioClient.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
